@@ -1,0 +1,260 @@
+{
+  "metadata" : {
+    "id" : "1143c61d-2424-4389-b00d-cace32dea81a",
+    "name" : "Sacramento",
+    "user_save_timestamp" : "1970-01-01T01:00:00.000Z",
+    "auto_save_timestamp" : "1970-01-01T01:00:00.000Z",
+    "language_info" : {
+      "name" : "scala",
+      "file_extension" : "scala",
+      "codemirror_mode" : "text/x-scala"
+    },
+    "trusted" : true,
+    "sparkNotebook" : null,
+    "customLocalRepo" : null,
+    "customRepos" : null,
+    "customDeps" : null,
+    "customImports" : null,
+    "customArgs" : null,
+    "customSparkConf" : null,
+    "customVars" : null
+  },
+  "cells" : [ {
+    "metadata" : {
+      "id" : "226D01BBC333406BA9F2DA058EBC7D98"
+    },
+    "cell_type" : "markdown",
+    "source" : "# Sacramento crimes"
+  }, {
+    "metadata" : {
+      "id" : "39F189B5F5694391A02A184E7947EF9C"
+    },
+    "cell_type" : "markdown",
+    "source" : "## Setup the DataFrame context (sql) "
+  }, {
+    "metadata" : {
+      "trusted" : true,
+      "input_collapsed" : false,
+      "collapsed" : false,
+      "id" : "8D52FF8453F24EED85B3BCC436435ACD"
+    },
+    "cell_type" : "code",
+    "source" : "",
+    "outputs" : [ {
+      "metadata" : { },
+      "data" : {
+        "text/html" : ""
+      },
+      "output_type" : "execute_result",
+      "execution_count" : 1,
+      "time" : "Took: 2.694s, at 2019-01-30 13:22"
+    } ]
+  }, {
+    "metadata" : {
+      "id" : "249064E11B754223A90F2D18C3C19BD7"
+    },
+    "cell_type" : "markdown",
+    "source" : "## Load SacramentocrimeJanuary2006.csv file"
+  }, {
+    "metadata" : {
+      "trusted" : true,
+      "input_collapsed" : false,
+      "collapsed" : false,
+      "id" : "833E7A81CE034E4C8CBB56048C747046"
+    },
+    "cell_type" : "code",
+    "source" : "",
+    "outputs" : [ {
+      "metadata" : { },
+      "data" : {
+        "text/html" : ""
+      },
+      "output_type" : "execute_result",
+      "execution_count" : 2,
+      "time" : "Took: 2.177s, at 2019-01-30 13:22"
+    } ]
+  }, {
+    "metadata" : {
+      "id" : "A6C36C6CEA4447ABB9BC7A212274A7DF"
+    },
+    "cell_type" : "markdown",
+    "source" : "## Create a DataFrame"
+  }, {
+    "metadata" : {
+      "trusted" : true,
+      "input_collapsed" : false,
+      "collapsed" : false,
+      "id" : "56870AC4048044EE89E777106B2D08F1"
+    },
+    "cell_type" : "code",
+    "source" : "//code here",
+    "outputs" : [ {
+      "metadata" : { },
+      "data" : {
+        "text/html" : ""
+      },
+      "output_type" : "execute_result",
+      "execution_count" : 3
+    } ]
+  }, {
+    "metadata" : {
+      "trusted" : true,
+      "input_collapsed" : false,
+      "collapsed" : false,
+      "presentation" : {
+        "tabs_state" : "{\n  \"tab_id\": \"#tab1978034139-0\"\n}",
+        "pivot_chart_state" : "{\n  \"hiddenAttributes\": [],\n  \"menuLimit\": 200,\n  \"cols\": [],\n  \"rows\": [],\n  \"vals\": [],\n  \"exclusions\": {},\n  \"inclusions\": {},\n  \"unusedAttrsVertical\": 85,\n  \"autoSortUnusedAttrs\": false,\n  \"inclusionsInfo\": {},\n  \"aggregatorName\": \"Count\",\n  \"rendererName\": \"Table\"\n}"
+      },
+      "id" : "B3F5F2949615468D967604C6D7D70674"
+    },
+    "cell_type" : "markdown",
+    "source" : "##Show 10 first rows"
+  }, {
+    "metadata" : {
+      "trusted" : true,
+      "input_collapsed" : false,
+      "collapsed" : false,
+      "id" : "05C2949682F94337942459077FE591CD"
+    },
+    "cell_type" : "code",
+    "source" : "//code here",
+    "outputs" : [ {
+      "metadata" : { },
+      "data" : {
+        "text/html" : ""
+      },
+      "output_type" : "execute_result",
+      "execution_count" : 4
+    } ]
+  }, {
+    "metadata" : {
+      "id" : "28E34C14436D48B78855316464214B8A"
+    },
+    "cell_type" : "markdown",
+    "source" : "## Register the dataframe as a table"
+  }, {
+    "metadata" : {
+      "trusted" : true,
+      "input_collapsed" : false,
+      "collapsed" : false,
+      "id" : "3A8BAE46D3634D3E8857D75E86970114"
+    },
+    "cell_type" : "code",
+    "source" : "//\"sacramento\"\n",
+    "outputs" : [ {
+      "metadata" : { },
+      "data" : {
+        "text/html" : ""
+      },
+      "output_type" : "execute_result",
+      "execution_count" : 5
+    } ]
+  }, {
+    "metadata" : {
+      "id" : "418BBA145DD34825B7B3FBF6C2D12734"
+    },
+    "cell_type" : "markdown",
+    "source" : "## Count the number of crimes for each location"
+  }, {
+    "metadata" : {
+      "trusted" : true,
+      "input_collapsed" : false,
+      "collapsed" : false,
+      "id" : "6A5F1B2F816545F4804DEDD0F103A7A8"
+    },
+    "cell_type" : "code",
+    "source" : "//code here\n",
+    "outputs" : [ {
+      "metadata" : { },
+      "data" : {
+        "text/html" : ""
+      },
+      "output_type" : "execute_result",
+      "execution_count" : 4,
+      "time" : "Took: 2.497s, at 2019-01-30 13:25"
+    } ]
+  }, {
+    "metadata" : {
+      "id" : "BEC44BA52BD14C3C8F753F4169A6182A"
+    },
+    "cell_type" : "markdown",
+    "source" : "## Count the number of crimes for each district"
+  }, {
+    "metadata" : {
+      "trusted" : true,
+      "input_collapsed" : false,
+      "collapsed" : false,
+      "id" : "CA9397E8BF504983AB6C9F97839EA094"
+    },
+    "cell_type" : "code",
+    "source" : "//code here",
+    "outputs" : [ {
+      "metadata" : { },
+      "data" : {
+        "text/html" : ""
+      },
+      "output_type" : "execute_result",
+      "execution_count" : 5,
+      "time" : "Took: 1.853s, at 2019-01-30 13:26"
+    } ]
+  }, {
+    "metadata" : {
+      "id" : "D296EB93565E47D989923869F62CE16B"
+    },
+    "cell_type" : "markdown",
+    "source" : "## Count the number of crimes for each kind of crime"
+  }, {
+    "metadata" : {
+      "trusted" : true,
+      "input_collapsed" : false,
+      "collapsed" : false,
+      "id" : "ED40B931575E4E77A9D7F74F1FDB83BE"
+    },
+    "cell_type" : "code",
+    "source" : "//code here",
+    "outputs" : [ {
+      "metadata" : { },
+      "data" : {
+        "text/html" : ""
+      },
+      "output_type" : "execute_result",
+      "execution_count" : 9
+    } ]
+  }, {
+    "metadata" : {
+      "trusted" : true,
+      "input_collapsed" : false,
+      "collapsed" : true,
+      "id" : "43CAE6BFA6894D76846CEF7AE4BD2AE0"
+    },
+    "cell_type" : "markdown",
+    "source" : "## Make wour analysis of the data"
+  }, {
+    "metadata" : {
+      "trusted" : true,
+      "input_collapsed" : false,
+      "collapsed" : true,
+      "id" : "68972CB1259445AF924E2796FF342542"
+    },
+    "cell_type" : "code",
+    "source" : "",
+    "outputs" : [ ]
+  }, {
+    "metadata" : {
+      "id" : "2332FE1EEFAE40AC8F46E9C10E8C2BE2"
+    },
+    "cell_type" : "markdown",
+    "source" : "## Enrich the data with an external dataset"
+  }, {
+    "metadata" : {
+      "trusted" : true,
+      "input_collapsed" : false,
+      "collapsed" : true,
+      "id" : "5D5465A986454FD080611D54CBAFC27D"
+    },
+    "cell_type" : "code",
+    "source" : "",
+    "outputs" : [ ]
+  } ],
+  "nbformat" : 4
+}
